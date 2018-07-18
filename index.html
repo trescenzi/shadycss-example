@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <script src="/app.js"></script>
+  </head>
+  <body>
+    <template>
+      <style>
+        :host {
+          display: block;
+          height: 100px;
+          background-color: var(--background, pink);
+        }
+      </style>
+    </template>
+    <x-test></x-test>
+    <label>
+      Background Color On Element
+      <input id="elementcolor" />
+    </label>
+  </body>
+</html>

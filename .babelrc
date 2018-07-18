@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+        "targets": {
+          "browsers": "last 2 versions, not ie <= 10",
+        },
+    }]
+  ],
+  "plugins": [
+    "transform-custom-element-classes",
+    "transform-class-properties",
+    "transform-custom-element-classes"
+  ]
+}
